@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+    <style>
+        body{
+            background-color: tomato;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        h1{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Form Pemesanan</h1>
+        </header>
+    </div>
+    <div>
+        <form>
+            <table border="0" align="center">
+                <tr>
+                    <td height="40px"><label for="inputId">Id Pemesan :</label></td>
+                    <td><input type="number" name="idPemesan" style="width: 1000px;"></td>
+                </tr>
+                <tr>
+                    <td height="40px"><label for="inputNama">Nama Pemesan :</label></td>
+                    <td><input type="text" name="namaPemesan" style="width: 1000px;"></td>
+                </tr>
+                <tr>
+                    <td height="40px"><label for="inputNomor">Nomor Identitas :</label></td>
+                    <td><input type="number" name="nomorIdentitas" style="width: 1000px;"></td>
+                </tr>
+                <tr>
+                    <td height="40px"><label for="inputTipe">Tipe Kamar :</label></td>
+                    <td>
+                        <select name="tipeKamar" id="tipeKamar">
+                            <option value="pilih" selected>--PILIH--</option>
+                            <option value="standard">STANDARD</option>
+                            <option value="deluxe">DELUXE</option>
+                            <option value="family">FAMILY</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

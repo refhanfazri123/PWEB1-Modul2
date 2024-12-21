@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Text</title>
+</head>
+<body bgcolor="lightblue">
+    <h1 align="center">Data Nilai MataKuliah</h1>
+    <form method="get" action="Praktikum2.html"></form>
+    <table border="0" align="center">
+        <tr>
+            <td><label for="inputText">Nama MataKuliah : </label></td>
+            <td><input type="text" id="namaMatkul" name="namaMatkul"
+                maxlength="20" min="5" size="20" required/>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Nama Dosen : </label></td>
+            <td><input type="text" id="namaDosen" name="namaDosen"
+                maxlength="20" min="5" size="20" required/>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="inputText">SKS : </label></td>
+            <td><input type="number" id="sks" name="sks" pattren="[0-9]" required/></td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Nama Mahasiswa : </label></td>
+            <td><input type="text" id="namaMhs" name="namaMhs"
+                maxlength="20" min="5" size="20" required/>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Jumlah Kehadiran : </label></td>
+            <td><input type="number" id="jumlah_kehadiran" name="jumlah_kehadiran" pattren="[0-9]" required/></td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Nilai Tugas : </label></td>
+            <td><input type="number" id="nilaiTugas" name="nilaiTugas" pattren="[0-9]" required/></td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Nilai Quiz : </label></td>
+            <td><input type="number" id="nilaiQuiz" name="nilaiQuiz" pattren="[0-9]" required/></td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Nilai UTS : </label></td>
+            <td><input type="number" id="nilaiUTS" name="nilaiUTS" pattren="[0-9]" required/></td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Nilai UAS : </label></td>
+            <td><input type="number" id="nilaiUAS" name="nilaiUAS" pattren="[0-9]" required/></td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Nilai Akhir : </label></td>
+            <td><input type="number" id="nilaiAkhir" name="nilaiAkhir" pattren="[0-9]" required/></td>
+        </tr>
+        <tr>
+            <td><label for="inputText">Nilai Huruf : </label></td>
+            <td><input type="text" id="nilaiHuruf" name="nilaiHuruf" pattren="[0-9]" required/></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button name="save" value="simpan" >Simpan</button>
+                <button type="reset" name="cancel" value="batal">Batal</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
